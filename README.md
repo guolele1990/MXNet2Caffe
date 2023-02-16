@@ -1,3 +1,11 @@
+20230206:
+    合并https://github.com/honghuCode/mobileFacenet-ncnn/tree/feature/mobilefacenet-mxnet2caffe
+    支持mobilefaceNet和retinaface(mobilenet0.25)转到caffe
+    
+    TODO：修改caffe upsamole层替换，使用Convolution + crop 实现,有一点点精度损失
+
+
+
 # MXNet2Caffe: Convert MXNet model to Caffe model
 
 You are welcome to file issues either for bugs in the source code, feature requests!
